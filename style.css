@@ -1,0 +1,41 @@
+.link{
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  margin: 20px;
+}
+
+.mainOne{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#counter{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+button{
+ padding: 10px;
+ border: 2px solid black;
+ border-radius: 5px;
+ background-color: bisque;
+ color: black;
+ margin: 4px;
+}
+
+.secondOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+

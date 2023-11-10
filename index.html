@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javaScript Chapter No. 43 - 48</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a style="text-align: center;" class="link" href="#" onclick="displayAlert()">Displaying Alert Link</a>
+    <br />
+    <div class="mainOne">
+      <img
+      src="https://img.freepik.com/free-vector/hand-drawn-phone-cartoon-illustration_52683-124698.jpg"
+      height="200px"
+      onclick="displayThanks()"
+      />
+      <img
+      src="https://img.freepik.com/free-vector/hand-drawn-phone-cartoon-illustration_23-2150616513.jpg"
+      height="200px"
+      onclick="displayThanks()"
+      />
+    </div>
+      <br/>
+      <img
+      src="https://img.freepik.com/free-vector/hand-drawn-phone-cartoon-illustration_23-2150616513.jpg"
+      onmouseover="src = 'https://img.freepik.com/free-vector/hand-drawn-phone-cartoon-illustration_52683-124698.jpg'"
+      onmouseout="src='https://img.freepik.com/free-vector/hand-drawn-phone-cartoon-illustration_23-2150616513.jpg'"
+      height="200px"
+      />
+    <br/>
+    <p id="counter">0</p>
+    <div class="secondOne">
+    <button onclick="increaseValue()">Increase</button>
+    <button onclick="decreaseValue()">Decrease</button>
+ </div>  
+ <br/>
+ <div class="secondOne">
+    <table>
+        <thead>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+        </thead>
+        <tbody>
+            <tr id="rowOne">
+                <td>0</td>
+                <td>John</td>
+                <td>10</td>
+                <td><button onclick="rowDeletion('rowOne')">Delete</button></td>
+            </tr>
+            <tr id="rowTwo">
+                <td>1</td>
+                <td>Doe</td>
+                <td>9</td>
+                <td><button onclick="rowDeletion('rowTwo')">Delete</button></td>
+            </tr>
+            <tr id="rowThree">
+                <td>2</td>
+                <td>Mark</td>
+                <td>10</td>
+                <td><button onclick="rowDeletion('rowThree')">Delete</button></td>
+            </tr>
+            <tr id="rowFour">
+                <td>3</td>
+                <td>James</td>
+                <td>8</td>
+                <td><button onclick="rowDeletion('rowFour')">Delete</button></td>
+            </tr>
+            <tr id="rowFive">
+                <td>4</td>
+                <td>Jimmy</td>
+                <td>9</td>
+                <td><button onclick="rowDeletion('rowFive')">Delete</button></td>
+            </tr>
+        </tbody> 
+    </table>
+ </div>
+</body>
+  <script src="app.js"></script>
+</html>
